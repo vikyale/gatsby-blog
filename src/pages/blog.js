@@ -1,8 +1,7 @@
-// pages/blog.js
 import React from "react"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-import {graphql} from "gatsby"
-import Post from  "../components/Post"
+import Post from "../components/Post"
 
 const Blog = ({ data }) => (
   <Layout>
@@ -21,9 +20,10 @@ const Blog = ({ data }) => (
       )
     })}
   </Layout>
-);
+)
 
-export  default Blog
+export default Blog
+
 export const AllBlogQuery = graphql`
   query AllBlogPosts {
     allMarkdownRemark {
@@ -33,8 +33,8 @@ export const AllBlogQuery = graphql`
             date
             title
             author
-            path
             description
+            path
           }
         }
       }

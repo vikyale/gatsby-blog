@@ -11,7 +11,7 @@ const About  =  ()  => (
   blanditiis non? Odit.
 </p>
 </Layout>
-);
+)
 
 
-export  default About
+export default About

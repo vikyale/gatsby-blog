@@ -12,6 +12,6 @@ const Contact  =  ()  => (
   blanditiis non? Odit.
 </p>
   </Layout>
-);
+)
 
-export  default Contact
+export default Contact

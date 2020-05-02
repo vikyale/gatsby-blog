@@ -10,5 +10,5 @@ I'm Victoria Ubaldo, Software Engineer and Data Analyst. I love build awesome pr
     </Layout>
  
  
-);
-export  default Home
+)
+export default Home
