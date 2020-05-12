@@ -6,11 +6,16 @@ const Contact  =  ()  => (
   <Layout>
      <h1>Contact</h1>
      <p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dignissimos
-  aut consequuntur aspernatur corrupti ratione, odit similique tenetur
-  accusantium, est nostrum esse minus iure voluptatum nihil cumque
-  blanditiis non? Odit.
+You can find me in :
 </p>
+ <footer class="app-footer">
+        <div class="socialmedia" >
+     <a href="https://github.com/vikyale">Github</a>
+       <a href="http://twitter.com/vikyale">Twitter</a>
+       <a href="https://www.linkedin.com/in/victoriaubaldo">Linkedin</a>
+          </div>
+      
+       </footer>
   </Layout>
 )
 

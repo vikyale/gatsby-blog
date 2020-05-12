@@ -4,12 +4,13 @@ import Layout from "../components/Layout"
 const About  =  ()  => (
 <Layout>
 <h1>About</h1>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dignissimos
-  aut consequuntur aspernatur corrupti ratione, odit similique tenetur
-  accusantium, est nostrum esse minus iure voluptatum nihil cumque
-  blanditiis non? Odit.
-</p>
+<div class="description" >
+When I was a child I enjoy playing with computers, videogames and
+  painting. From medical and teachers parents, I believe to create a better place for us is become a better person
+ , solve problems and share your knowledge to a community. So, I'm a engineer who like create things (Web Development & ML) with accessibility
+  with human-centered and I'm community builder in the program Women Techmakers and GDG.
+</div>
+
 </Layout>
 )
 

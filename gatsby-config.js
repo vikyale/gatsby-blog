@@ -13,7 +13,9 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
     {
@@ -26,9 +28,11 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
       },
+      
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  
 }

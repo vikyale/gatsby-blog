@@ -22,3 +22,40 @@ font-size:  5em;
 .main  p  {
 font-size:  2em;
 }
+
+
+.app-footer{
+  text-align: right;
+  }
+  
+ .app-footer .copyright {
+  font-size: 12px;
+  color: white;
+  margin-right: 30px;
+ }
+ 
+ .app-footer a{
+   color: white;
+   cursor: pointer;
+   text-decoration: none;
+ }
+ 
+ .app-footer a:hover{
+   text-decoration: underline;
+   }
+ 
+
+   .socialmedia{
+    text-align: left;
+  }
+
+
+  a{
+    margin-left: 30px;
+  }
+
+
+.description{
+  font-size:  1.5em;
+
+}
