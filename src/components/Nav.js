@@ -5,7 +5,19 @@ import  "./nav.css"
 
 const  Nav  =  ()  => (
 <nav className="nav">
+
+<div className="nav-container">
+
+<div className="nav-brand" >
+
+              <span className="nav-brand-text">Victoria Ubaldo</span>
+     
+</div>
+
+
+<div className="nav-links">
 <ul className="nav-list">
+
 <li className="nav-list-item">
 <Link
 activeStyle={{ borderBottom:  "2px solid #fa744f"  }}
@@ -39,6 +51,10 @@ Contact
 </Link>
 </li>
 </ul>
+</div>
+</div>
+
+
 </nav>
 )
 
