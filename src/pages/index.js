@@ -5,6 +5,8 @@ import Layout from "../layout";
 import PostListing from "../components/PostListing";
 import SEO from "../components/seo";
 import config from "../../data/SiteConfig";
+import vikyale from '../../content/images/vickyubaldo.jpg'
+
 
 export default class Index extends Component {
 
@@ -82,8 +84,21 @@ export default class Index extends Component {
     return (
       <Layout>
         <Helmet title={`Blog – ${config.siteTitle}`} />
+
         <SEO />
         <div className="container">
+        <div className="lead">
+        <img
+              src={vikyale}
+              className="vikyale"
+              title="Victoria Ubaldo"
+              alt="Victoria Ubaldo"
+            />
+            <h1>{`Hola! Soy Victoria`}</h1>
+            <p >
+              {`Software Engineer & Data Analyst y este es mi blog personal :)`}
+            </p>
+        </div>
           <div className="category-container">
             {categories.map(category => {
               const active = currentCategories.includes(category.fieldValue);
