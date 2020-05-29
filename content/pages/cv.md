@@ -18,7 +18,7 @@ template: page
 
 ## Experiencia
 
-#### Analista de Gestión de Datos (Data Engineer)
+#### Analista de Gestión de Datos (Data Analyst)
 
 **Interbank** - _2018 - actualmente | Lima_
 
