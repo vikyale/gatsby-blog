@@ -9,9 +9,9 @@ template: page
 
 ## Habilidades Técnicas
 
-- **Lenguajes** - Python, Java, SQL, SAS, JavaScript, HTML, CSS
-- **Conceptos** - CI/CD, Agile, Scrum, Design Thinking
-- **Herramientas/Plataformas** - Git, Node.js, Jira, AWS, GCP
+- **Lenguajes** - Python, Java, SQL, R, SAS, JavaScript
+- **Conceptos** - CI/CD, Agile, Scrum, Kanban, Design Thinking
+- **Herramientas/Plataformas** - Git, Node.js, AWS, GCP
 - **Visualización** - Tableau, PowerBI , DataStudio , Google Analytics
 - **Frameworks** - React
 - **Data** - GraphQL,JSON
